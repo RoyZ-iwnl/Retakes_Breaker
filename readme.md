@@ -1,7 +1,7 @@
 [CS:GO] Retakes Breaker [V 1.0]
 ===================
 
-[中文介绍](https://github.com/RoyZ-CSGO/retakes_breaker/master/readme-zh-CN.md)
+[中文介绍](https://github.com/RoyZ-CSGO/retakes_breaker/blob/master/readme-zh-CN.md)
 
 
 [Download](https://github.com/RoyZ-CSGO/retakes_breaker/releases)
