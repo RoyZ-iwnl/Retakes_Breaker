@@ -4,7 +4,7 @@
 [中文介绍](https://github.com/RoyZ-CSGO/retakes_breaker/blob/master/readme-zh-CN.md)
 
 
-[Download](https://github.com/RoyZ-CSGO/retakes_breaker/releases)
+[Download](https://github.com/RoyZ-CSGO/retakes_breaker/releases/latest)
 
 
 Description
