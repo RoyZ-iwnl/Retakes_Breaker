@@ -1,0 +1,11 @@
+"Phrases"
+{
+	"Breakable"
+	{
+		"en"			"All destructible entities have been destroyed."
+    }
+    "Open"
+    {
+        "en"            "All doors have been opened."
+    }
+}
