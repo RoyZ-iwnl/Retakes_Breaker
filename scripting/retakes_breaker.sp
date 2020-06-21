@@ -16,8 +16,8 @@ public Plugin myinfo =
 public void OnPluginStart()
 {
     LoadTranslations("retakes_breaker.phrases")
-    g_cvEnablebreaker = CreateConVar("sm_retakes_breaker", "1.0", "Enable retakes breaker", _, true, 0.0, true, 1.0);
-    g_cvEnableDoorOpener = CreateConVar("sm_retakes_breaker_dooropener", "1.0", "Enable Door Opener", _, true, 0.0, true, 1.0);
+    g_cvEnablebreaker = CreateConVar("sm_retakes_breaker", "1.0", "Enable or Disable plugin. 1-Enable   0-Disable", _, true, 0.0, true, 1.0);
+    g_cvEnableDoorOpener = CreateConVar("sm_retakes_breaker_dooropener", "1.0", "Enable or Disable auto open doors. 1-Enable   0-Disable", _, true, 0.0, true, 1.0);
     HookEvent("round_start", Event_OnRoundStart, EventHookMode_Pre);
     AutoExecConfig(true, "retakes_breaker");
 }
