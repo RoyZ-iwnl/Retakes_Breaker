@@ -31,4 +31,4 @@ Known issues
 
 Credits
 -------------
-> - [@splewis](https://github.com/splewis) : Retakes Plugins
+> - [@splewis](https://github.com/splewis) : Retakes Plugin
