@@ -3,6 +3,9 @@
 
 [English Readme](https://github.com/RoyZ-CSGO/retakes_breaker/master/readme.md)
 
+[下载](https://github.com/RoyZ-CSGO/retakes_breaker/releases)
+
+
 描述
 -------------
 一个 Sourcemod 插件 , 仅在 [回防](https://github.com/splewis/csgo-retakes) 模式下工作, 他将自动在每局开局时破坏所有可破坏实体（玻璃、铁板等等）并会自动打开所有的门，以使得回防模式更加贴近实战。

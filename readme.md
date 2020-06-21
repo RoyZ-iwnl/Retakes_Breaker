@@ -3,6 +3,10 @@
 
 [中文介绍](https://github.com/RoyZ-CSGO/retakes_breaker/master/readme-zh-CN.md)
 
+
+[Download](https://github.com/RoyZ-CSGO/retakes_breaker/releases)
+
+
 Description
 -------------
 A Sourcemod plugin , Working in [Retakes](https://github.com/splewis/csgo-retakes) mode, it will automatically destroy all entities that can be destroyed and automatically open all doors, making Retakes closer to the real situation.
