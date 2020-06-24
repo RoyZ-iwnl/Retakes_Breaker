@@ -20,10 +20,11 @@ Cvars
 -------------
 > - sm_retakes_breaker "1" (Default: "1" - Enable or Disable plugin.)
 > - sm_retakes_breaker_dooropener "1" (Default: "1" - Enable or Disable auto open doors.)
-
+> - sm_retakes_breaker_text "1" (Default: "1" - Enable or Disable Breaker Notification)
 Changelog
 -------------
 > - V 1.0 : Release of the plugin.
+> - V 1.1 : Add Breaker Notification Switch
 
 Known issues
 -------------

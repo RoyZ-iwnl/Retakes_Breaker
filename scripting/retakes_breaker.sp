@@ -5,6 +5,7 @@
 
 ConVar g_cvEnablebreaker = null;
 ConVar g_cvEnableDoorOpener = null;
+ConVar g_cvEnableText = null;
 
 public Plugin myinfo =
     {
@@ -18,6 +19,7 @@ public void OnPluginStart()
     LoadTranslations("retakes_breaker.phrases")
     g_cvEnablebreaker = CreateConVar("sm_retakes_breaker", "1.0", "Enable or Disable plugin. 1-Enable   0-Disable", _, true, 0.0, true, 1.0);
     g_cvEnableDoorOpener = CreateConVar("sm_retakes_breaker_dooropener", "1.0", "Enable or Disable auto open doors. 1-Enable   0-Disable", _, true, 0.0, true, 1.0);
+    g_cvEnableText = CreateConVar("sm_retakes_breaker_text", "1.0", "Enable or Disable Breaker Notification. 1-Enable   0-Disable", _, true, 0.0, true, 1.0);
     HookEvent("round_start", Event_OnRoundStart, EventHookMode_Pre);
     AutoExecConfig(true, "retakes_breaker");
 }
@@ -37,14 +39,20 @@ public void Event_OnRoundStart(Handle event, const char[] name, bool dontBroadca
             AcceptEntityInput(ent, "Break");
         }
 
-        Retakes_MessageToAll("%t", "Breakable");
+        if (g_cvEnableText.BoolValue)
+        {
+            Retakes_MessageToAll("%t", "Breakable");
+        }
 
         while (((ent = FindEntityByClassname(ent, "prop_door_rotating")) != -1) && (g_cvEnableDoorOpener.BoolValue))
         {
             AcceptEntityInput(ent, "open");
         }
 
-        Retakes_MessageToAll("%t", "Open");
+        if (g_cvEnableText.BoolValue)
+        {
+            Retakes_MessageToAll("%t", "Open");
+        }
 
         if (StrContains(currentMap, "de_mirage", false) == -1)
         {
