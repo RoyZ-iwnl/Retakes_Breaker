@@ -39,6 +39,11 @@ public void Event_OnRoundStart(Handle event, const char[] name, bool dontBroadca
             AcceptEntityInput(ent, "Break");
         }
 
+        while ((ent = FindEntityByClassname(ent, "func_breakable_surf")) != -1)
+        {
+            AcceptEntityInput(ent, "Break");
+        }
+
         if (g_cvEnableText.BoolValue)
         {
             Retakes_MessageToAll("%t", "Breakable");
