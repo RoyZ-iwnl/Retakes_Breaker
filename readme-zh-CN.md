@@ -19,10 +19,12 @@
 -------------
 > - sm_retakes_breaker "1" (默认: "1" - 启用或禁用插件。)
 > - sm_retakes_breaker_dooropener "1" (默认: "1" - 启用或禁用自动开门。)
+> - sm_retakes_breaker_text "1" (Default: "1" - 启用或禁用聊天中的消息通知)
 
 更新日志
 -------------
 > - V 1.0 : 插件首次发布
+> - V 1.1 : 添加聊天消息通知开关(sm_retakes_breaker_text)，添加对func_breakable_surf的破坏(感谢 [@borzaka](https://forums.alliedmods.net/member.php?u=300959))
 
 已知问题
 -------------
@@ -30,4 +32,5 @@
 
 感谢
 -------------
-> - [@splewis](https://github.com/splewis) : Retakes Plugin
+> - [@splewis](https://github.com/splewis) : 回防插件作者
+> - [@borzaka](https://forums.alliedmods.net/member.php?u=300959) : 破坏func_breakable_surf 和 聊天开关功能 的提议者
