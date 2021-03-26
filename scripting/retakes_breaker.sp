@@ -26,7 +26,6 @@ public void OnPluginStart()
 
 public void Event_OnRoundStart(Handle event, const char[] name, bool dontBroadcast)
 {
-
     if (g_cvEnablebreaker.BoolValue)
     {
         char currentMap[PLATFORM_MAX_PATH];
@@ -59,7 +58,22 @@ public void Event_OnRoundStart(Handle event, const char[] name, bool dontBroadca
             Retakes_MessageToAll("%t", "Open");
         }
 
-        if (StrContains(currentMap, "de_mirage", false) == -1)
+        if (StrContains(currentMap, "de_nuke", false) == 0)
+        {
+        	while ((ent = FindEntityByClassname(ent, "func_button")) != -1)
+            {
+                AcceptEntityInput(ent, "Kill");
+            }
+        }
+
+        if (StrContains(currentMap, "de_vertigo", false) == 0 || StrContains(currentMap, "de_cache", false) == 0 || StrContains(currentMap, "de_nuke", false) == 0)
+        {
+            while ((ent = FindEntityByClassname(ent, "prop_dynamic")) != -1)
+            {
+                AcceptEntityInput(ent, "Break");
+            }
+        }
+        else if (StrContains(currentMap, "de_mirage", false) == -1)
         {
             while ((ent = FindEntityByClassname(ent, "prop.breakable.01")) != -1)
             {
@@ -68,16 +82,6 @@ public void Event_OnRoundStart(Handle event, const char[] name, bool dontBroadca
             while ((ent = FindEntityByClassname(ent, "prop.breakable.02")) != -1)
             {
                 AcceptEntityInput(ent, "break");
-            }
-        }
-        else
-        {
-            if (StrContains(currentMap, "de_vertigo", false) == 1)
-            {
-                while ((ent = FindEntityByClassname(ent, "prop_dynamic")) != -1)
-                {
-                    AcceptEntityInput(ent, "Break");
-                }
             }
         }
     }
