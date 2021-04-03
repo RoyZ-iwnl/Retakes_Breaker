@@ -1,4 +1,4 @@
-[CS:GO] Retakes Breaker [V 1.1]
+[CS:GO] 回防模式 破窗开门插件 [V 1.2]
 ===================
 
 [English Readme](https://github.com/RoyZ-CSGO/Retakes_Breaker/blob/master/readme.md)
