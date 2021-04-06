@@ -25,7 +25,8 @@
 -------------
 > - V 1.0 : 插件首次发布
 > - V 1.1 : 添加聊天消息通知开关(sm_retakes_breaker_text)，添加对func_breakable_surf的破坏(感谢 [@borzaka](https://forums.alliedmods.net/member.php?u=300959))
-> - V 1.2 : [「PR#1」](https://github.com/RoyZ-CSGO/Retakes_Breaker/pull/1) 修复排除殒命大厦地图的逻辑，更新对核子危机和死城之谜地图的支持(由 [@DeonduPreez](https://github.com/DeonduPreez)编写)
+> - V 1.2 : [「PR#1」](https://github.com/RoyZ-CSGO/Retakes_Breaker/pull/1) 修复排除殒命大厦地图的逻辑，更新对核子危机和死城之谜地图的支持(由 [@DeonduPreez](https://github.com/DeonduPreez)编写)<br>[「PR#2」](https://github.com/RoyZ-CSGO/Retakes_Breaker/pull/2)
+添加丹麦语🇩🇰翻译(由 [@ksgoescoding](https://github.com/ksgoescoding)贡献)
 
 已知问题
 -------------
@@ -35,4 +36,5 @@
 -------------
 > - [@splewis](https://github.com/splewis) : 回防插件作者
 > - [@borzaka](https://forums.alliedmods.net/member.php?u=300959) : 破坏func_breakable_surf 和 聊天开关功能 的提议者
-> -  [@DeonduPreez](https://github.com/DeonduPreez) : 修复排除殒命大厦地图的逻辑，更新对核子危机和死城之谜的支持
+> - [@DeonduPreez](https://github.com/DeonduPreez) : 修复排除殒命大厦地图的逻辑，更新对核子危机和死城之谜的支持
+> - [@ksgoescoding](https://github.com/ksgoescoding) : 添加丹麦语🇩🇰翻译
