@@ -26,7 +26,15 @@ Changelog
 -------------
 > - V 1.0 : Release of the plugin.
 > - V 1.1 : Add Breaker Notification Switch(sm_retakes_breaker_text),add break func_breakable_surf(Thank [@borzaka](https://forums.alliedmods.net/member.php?u=300959))
-> - V 1.2 : [「PR#1」](https://github.com/RoyZ-CSGO/Retakes_Breaker/pull/1) Fixed logic that excluded Vertigo,Added new Nuke's vents to the breaker,Added new Cache's vents to the breaker(By [@DeonduPreez](https://github.com/DeonduPreez))
+> - V 1.2 : [「PR#1」](https://github.com/RoyZ-CSGO/Retakes_Breaker/pull/1)
+Fixed logic that excluded Vertigo,
+Added new Nuke's vents to the breaker,
+Added new Cache's vents to the breaker
+(By [@DeonduPreez](https://github.com/DeonduPreez))
+
+[「PR#2」](https://github.com/RoyZ-CSGO/Retakes_Breaker/pull/2)
+Added a Danish🇩🇰 translation for the plugin.
+(By [@ksgoescoding](https://github.com/ksgoescoding))
 
 Known issues
 -------------
@@ -36,4 +44,5 @@ Credits
 -------------
 > - [@splewis](https://github.com/splewis) : Retakes Plugin
 > - [@borzaka](https://forums.alliedmods.net/member.php?u=300959) : Proposer of func_breakable_surf and notification switch
-> -  [@DeonduPreez](https://github.com/DeonduPreez) : Fixed logic that excluded Vertigo,Added new Nuke's vents to the breaker,Added new Cache's vents to the breaker
+> - [@DeonduPreez](https://github.com/DeonduPreez) : Fixed logic that excluded Vertigo,Added new Nuke's vents to the breaker,Added new Cache's vents to the breaker
+> - [@ksgoescoding](https://github.com/ksgoescoding) : Added a Danish🇩🇰 translation for the plugin.
