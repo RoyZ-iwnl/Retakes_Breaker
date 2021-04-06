@@ -30,8 +30,7 @@ Changelog
 Fixed logic that excluded Vertigo,
 Added new Nuke's vents to the breaker,
 Added new Cache's vents to the breaker
-(By [@DeonduPreez](https://github.com/DeonduPreez))
-[「PR#2」](https://github.com/RoyZ-CSGO/Retakes_Breaker/pull/2)
+(By [@DeonduPreez](https://github.com/DeonduPreez))<br>[「PR#2」](https://github.com/RoyZ-CSGO/Retakes_Breaker/pull/2)
 Added a Danish🇩🇰 translation for the plugin.
 (By [@ksgoescoding](https://github.com/ksgoescoding))
 
