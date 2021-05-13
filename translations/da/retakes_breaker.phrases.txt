@@ -6,6 +6,6 @@
     }
     "Open"
     {
-        "da"            "Alle døre er blevet åbnet."s
+        "da"            "Alle døre er blevet åbnet."
     }
 }
